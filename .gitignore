@@ -1,0 +1,23 @@
+# ---- Datos personales y claves: NUNCA a Git ----
+datos/
+diag/
+*.env
+local.env
+.env*
+boveda*.json
+*.key
+*.pem
+
+# ---- Generados ----
+__pycache__/
+*.pyc
+venv/
+.venv/
+*.log
+*.bak*
+*.sync-conflict-*
+.stfolder/
+.stversions/
+.DS_Store
+Thumbs.db
+!.env.ejemplo

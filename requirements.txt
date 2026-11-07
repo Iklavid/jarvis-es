@@ -1,0 +1,28 @@
+requests
+edge-tts
+pygame-ce
+SpeechRecognition
+PySide6
+pyautogui
+pyperclip
+psutil
+pywhatkit
+keyring
+cryptography
+paho-mqtt
+websockets
+pyyaml
+pyserial
+imageio-ffmpeg
+ngrok
+neonize
+sounddevice
+# Solo Windows
+PyAudio; sys_platform == "win32"
+pycaw; sys_platform == "win32"
+comtypes; sys_platform == "win32"
+screen-brightness-control; sys_platform == "win32"
+winotify; sys_platform == "win32"
+keyboard; sys_platform == "win32"
+# Solo Mac
+pynput; sys_platform == "darwin"
